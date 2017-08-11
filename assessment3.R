@@ -52,7 +52,7 @@ makeCacheMatrix <- function(x = numeric()) {
 # The following function calculates the inverse of a "special" matrix created with 
 # makeCacheMatrix
 cacheSolve <- function(y, ...) {
-        # get the cached value
+        ## get the cached value and return a matrix that is the inverse of 'y'
         inverse <- y$getInverse()
         # if a cached value exists return it
         if(!is.null(inverse)) {
