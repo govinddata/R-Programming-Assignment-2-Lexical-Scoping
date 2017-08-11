@@ -3,6 +3,13 @@ This repository is created as part of the Week#3 assignment so-called "Programmi
 
 ## For the Coursera course [R Programming](https://www.coursera.org/course/rprog)
 
+The first function, makeVector creates a special "vector", which is really a list containing a function to
+
+1. set the value of the vector
+2. get the value of the vector
+3. set the value of the mean
+4. get the value of the mean
+
 The following code demonstrates how to use the `assessment3.R` R script.
 
 Lines starting with `#` are simple comments, lines starting with `#>` are things
